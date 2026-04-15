@@ -154,9 +154,15 @@ CUDA_VISIBLE_DEVICES=0 python metrics.py \
 ## Acknowledgements
 
 Our code follows several awesome repositories. We appreciate them for making their codes available to public.
+
 [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) 
+
 [FSGS](https://github.com/VITA-Group/FSGS)
+
 [DNGaussian](https://github.com/Fictionarry/DNGaussian)
+
 [SCGaussian](https://github.com/prstrive/SCGaussian)
+
 [Dropgaussian](https://github.com/DCVL-3D/DropGaussian_release)
+
 [NexusGS](https://github.com/USMizuki/NexusGS/)
