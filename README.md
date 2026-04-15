@@ -18,9 +18,6 @@
 </div>
 
 
----------------------------------------------------
-
-
 ## Overview
 
 Sparse-view 3D Gaussian Splatting often suffers from structural degradation, floating primitives, fragmented geometry, and unreliable appearance estimation under limited supervision. SPS-GS addresses this problem by jointly modeling **structural**, **photometric**, and **semantic** cues within a unified optimization framework.
@@ -36,7 +33,7 @@ By combining these three cues, SPS-GS improves both geometric stability and rend
 ## Related Work Comparison
 
 <div align="center">
-  <img src="assets/com_related.png" width="360" alt="Related work comparison">
+  <img src="assets/com_related.png" width="560" alt="Related work comparison">
 </div>
 
 <p align="center">
@@ -87,7 +84,13 @@ Install PyTorch and the Python dependencies:
 pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu118
 ```
 
-Install submodules:
+Fetch the third-party repositories on demand:
+
+```bash
+bash script/fetch_third_party.sh
+```
+
+Then install the CUDA extensions:
 
 ```bash
 pip install submodules/diff-gaussian-rasterization
