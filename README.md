@@ -33,7 +33,7 @@ By combining these three cues, SPS-GS improves both geometric stability and rend
 ## Related Work Comparison
 
 <div align="center">
-  <img src="assets/com_related.png" width="560" alt="Related work comparison">
+  <img src="assets/com_related.png" width="360" alt="Related work comparison">
 </div>
 
 <p align="center">
